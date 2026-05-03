@@ -1,0 +1,12 @@
+package com.aicode.codemother.mapper;
+
+import com.mybatisflex.core.BaseMapper;
+import com.aicode.codemother.model.entity.ChatHistory;
+
+/**
+ * 对话历史 映射层。
+ *
+ */
+public interface ChatHistoryMapper extends BaseMapper<ChatHistory> {
+
+}
